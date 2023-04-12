@@ -1,0 +1,474 @@
+/********************************************/
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+  }
+  
+/*   
+ @media screen and (max-width: 640px) {
+  .contenedor {
+    height: auto;
+  }
+
+  .unete_a_nosotros {
+    width: 100%;
+    padding: 0 0px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+
+  .botones {
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: -20px;
+  }
+
+  .estudiante,
+  .voluntario,
+  .bachiller {
+    margin-left: 0;
+    margin-bottom: 20px;
+    height: 80px;
+  }
+} */
+
+
+/* RESPONSIVE PARA LAPTOPS */
+
+@media screen and (min-width: 1280px) {
+  /* PRIMERA SECCIÓN / UNETE A NOSOTROS */
+  .contenedor {
+    height: auto;
+    background-color: #1FB0E5;
+    color: #fff;
+  }
+
+  .unete_a_nosotros {
+    width: 1100px;
+    display: block;
+  }
+  
+  .estudiante {
+    align-items: center;
+    width: 280px;
+    text-align: right;
+    margin-left: 250px;
+  }
+  
+  .voluntario {
+    align-items: center;
+    width: 280px;
+    margin-left: 50px;
+  }
+  
+  /* .bachiller {
+    align-items: center;
+    width: 280px;
+    margin-left: -80px;
+  } */
+
+  /***** TRIQUI TRUEQUE ***/
+  .contenedor_triqui {
+    background-color: #4FAEA3;
+    color: #fff;
+    height: auto;
+  }
+
+  .seccion_triqui {
+    background-color: #4FAEA3;
+    color: #fff;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .triqui_trueque {
+    width: 320px;
+    margin-left: -80px;
+  }
+  
+  .espacio {
+    font-size: 40px;
+    margin-top: 60px;
+    margin-left: -80px;
+  }
+  
+  .sana_sana {
+    width: 200px;
+    margin-left: -30px;
+  }
+  
+  .construccion {
+    font-size: 40px;
+    margin-left: 70px;
+    margin-top: 10px;
+  }
+  
+  .producto_sana {
+    margin-left: 80px;
+    width: 600px;
+    position: absolute;
+    margin-top: -10px;
+  }
+
+  /** NUESTRA CAMPAÑA ROSADA *****/
+  .titulosedes {
+    font-size: 50px;
+  }
+  
+  .fondo {
+    background-color: #28233a;
+    background-image: url(images/voluntariado/15Fondo\ triqui_Mesa.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .titulo_campanias {
+    font-size: 70px;
+  }
+  
+  .container .realiza_triqui {
+    width: 500px;
+    margin-top: 100px;
+    margin-right: 950px;
+  }
+  
+  .container .descubre {
+    width: 300px;
+    margin-top: 40px;
+    margin-right: 10px;
+  }
+  
+  .container .fecha_triqui {
+    width: 300px;
+    margin-top: 40px;
+    margin-right: 50px;
+  }
+  
+  .container .logo_sana {
+    width: 400px;
+    margin-top: 50px;
+    margin-right: 100px;
+  }
+  
+  .container .producto_nuevo {
+    width: 700px;
+    margin-left: -140px;
+  }
+  
+  .container .btn_producto {
+    width: 450px;
+    margin-left: -60px;
+    margin-top: -40px;
+  }
+  
+  /****/
+  .fondo {
+    background-image: url(/images/voluntariado/15Fondo\ triqui_Mesa.png);
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+/* RESPONSIVE PARA CELULAR */
+@media screen and (max-width: 640px) {
+  /* PRIMERA SECCIÓN / UNETE A NOSOTROS */
+  .contenedor {
+    height: auto;
+    background-color: #1FB0E5;
+    color: #fff;
+  }
+
+  .imagenes {
+    justify-content: center;
+  }
+  .unete_a_nosotros {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    content: url(images/voluntariado/unete.svg);
+    margin-top: 50px;
+    display: block;
+  }
+
+  .unete {
+    object-fit: cover;
+    content: url(images/voluntariado/unete_2.svg);
+    width: 70%;
+    height: 80px;
+    display: block;
+    margin-top: 40px;
+  }
+  
+  .botones {
+    justify-content: center;
+  }
+
+  .estudiante {
+    margin-top: 30px;
+    object-fit: cover;
+    height: 80px;
+    display: block;
+    margin-left: 85px;
+  }
+  
+  .voluntario {
+    object-fit: cover;
+    height: 80px;
+    display: block;
+    margin-top: 10px;
+    margin-left: -5px;
+    margin-bottom: 40px;
+  }
+  
+  /* .bachiller {
+    align-items: center;
+    width: 280px;
+    margin-left: -80px;
+  } */
+
+
+  /* Sección Triqui Trueque */
+  .contenedor_triqui {
+    background-color: #4FAEA3;
+    color: #fff;
+    height: auto;
+  }
+
+  .triqui_trueque {
+    width: 70%;
+    padding: 0 20px;
+    margin-top: -100px;
+    margin-left: 55px;
+  }
+
+  .espacio {
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .sana_sana {
+    width: 40%;
+    margin-left: 0;
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+    margin-left: 115px;
+  }
+
+  .construccion {
+    font-size: 30px;
+    margin-left: 0;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .producto_sana {
+    margin-left: 0;
+    width: 100%;
+    position: static;
+    margin-bottom: -50px;
+    margin-left: 5px;
+  }
+
+  /* Sección Campañas Vigentes Triqui Trueque */
+  .fondo {
+    background-image: none;
+  }
+
+  .titulo_campanias {
+    font-size: 40px;
+    margin-top: 50px;
+  }
+
+  .container .realiza_triqui {
+    width: 100%;
+    margin-top: 40px;
+    margin-right: 0;
+  }
+
+  .container .descubre {
+    width: 80%;
+    margin-top: 60px;
+    margin-right: 0;
+  }
+
+  .container .fecha_triqui {
+    width: 70%;
+    margin-top: 60px;
+    margin-right: 0;
+  }
+
+  .container .logo_sana {
+    width: 80%;
+    margin-top: 60px;
+    margin-right: 0;
+  }
+
+  .container .producto_nuevo {
+    width: 100%;
+    height: 260px;
+    margin-left: 0;
+    margin-top: -60px;
+  }
+
+  .container .btn_producto {
+    width: 80%;
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE TABLETS */
+@media screen and (min-width: 640px) and (max-width: 1280px) {
+  /* PRIMERA SECCIÓN / UNETE A NOSOTROS */
+  .contenedor {
+    height: auto;
+    background-color: #1FB0E5;
+    color: #fff;
+  }
+
+  .unete_a_nosotros {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    display: block;
+  }
+  
+  .estudiante {
+    margin-top: 40px;
+    object-fit: cover;
+    height: 80px;
+    display: block;
+    margin-left: 140px;
+  }
+  
+  .voluntario {
+    margin-top: 40px;
+    object-fit: cover;
+    height: 80px;
+    display: block;
+    margin-left: 20px;
+  }
+  
+  /* .bachiller {
+    align-items: center;
+    width: 280px;
+    margin-left: -80px;
+  } */
+
+
+  /* Sección Triqui Trueque */
+  .contenedor_triqui {
+    background-color: #4FAEA3;
+    color: #fff;
+    height: auto;
+  }
+
+  .triqui_trueque {
+    width: 160px;
+    margin-left: 10px;
+  }
+
+  .espacio {
+    font-size: 25px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: -30px;
+  }
+
+  .sana_sana {
+    width: 100px;
+    position: relative;
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  .construccion {
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .producto_sana {
+    height: 250px;
+    position: absolute;
+  }
+
+  /** NUESTRA CAMPAÑA ROSADA *****/
+  .titulosedes {
+    font-size: 50px;
+  }
+  
+  .fondo {
+    background-image: url(images/voluntariado/15Fondo\ triqui_Mesa.png);
+    background-size: 130%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+  }
+  
+  .titulo_campanias {
+    margin-top: 20px;
+    font-size: 50px;
+  }
+  
+  .container .realiza_triqui {
+    width: 300px;
+    margin-top: 40px;
+    margin-right: 950px;
+  }
+  
+  .container .descubre {
+    width: 200px;
+    margin-top: 50px;
+    margin-right: 10px;
+  }
+  
+  .container .fecha_triqui {
+    width: 200px;
+    margin-top: 50px;
+    margin-right: 10px;
+  }
+  
+  .container .logo_sana {
+    width: 250px;
+    margin-top: 40px;
+    margin-right: 100px;
+  }
+  
+  .container .producto_nuevo {
+    margin-top: -60px;
+    width: 450px;
+    margin-left: -100px;
+  }
+  
+  .container .btn_producto {
+    width: 300px;
+    margin-left: -20px;
+    margin-top: -10px;
+  }
+}
